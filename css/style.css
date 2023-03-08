@@ -13,8 +13,12 @@ body {
   max-width: none !important;
 }
 
-h1, h2 {
+.tartalom h1, .tartalom h2 {
   font-family: "Lobster", cursive;
+}
+
+.tartalom p {
+  text-indent: 15px;
 }
 
 h1 {
@@ -24,6 +28,26 @@ h1 {
 
 h2 {
   font-size: 3em !important;
+}
+
+.pizza-fajtak ul {
+  list-style-image: url('../img/pizza_icon.png');
+}
+
+.pizza-fajtak ul li {
+  line-height: 30px;
+}
+
+.pizza-fajtak ul li span {
+  color: #414a04;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.keretezett {
+  border: 8px double #5d6a09;
+  background-color: #ffeccb;
+  padding: 10px; /* nem kéri */
 }
 
 @media screen and (max-width: 768px) {

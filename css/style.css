@@ -19,6 +19,7 @@ body {
 
 .tartalom p {
   text-indent: 15px;
+  text-align: justify;
 }
 
 h1 {
@@ -42,6 +43,10 @@ h2 {
   color: #414a04;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.keretezett-szulo {
+  padding: 0 15%;
 }
 
 .keretezett {

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+
+
+body {
+  background-image: url("../img/bg_pizza.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.tartalom {
+  max-width: none !important;
+}
+
+h1, h2 {
+  font-family: "Lobster", cursive;
+}
+
+h1 {
+  font-size: 7em !important;
+  font-variant: small-caps !important;
+}
+
+h2 {
+  font-size: 3em !important;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 50px !important;
+  }
+}
+
+/* ------------------- */
+/* @media (min-width: 576px) {
+  body::before {
+    content: "SM";
+  }
+}
+
+@media (min-width: 768px) {
+  body::before {
+    content: "MD";
+  }
+}
+
+@media (min-width: 992px) {
+  body::before {
+    content: "LG";
+  }
+}
+
+@media (min-width: 1200px) {
+  body::before {
+    content: "XL";
+  }
+}
+
+@media (min-width: 1400px) {
+  body::before {
+    content: "XXL";
+  }
+} */
